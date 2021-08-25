@@ -1,0 +1,264 @@
+{
+  "categories": [
+    {
+      "id": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "name": "Tools",
+      "createdAt": 1629901305913,
+      "updateAt": 1629901305913
+    },
+    {
+      "id": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "name": "Books",
+      "createdAt": 1629901305913,
+      "updateAt": 1629901305913
+    },
+    {
+      "id": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "name": "Music",
+      "createdAt": 1629901305913,
+      "updateAt": 1629901305913
+    },
+    {
+      "id": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "name": "Games",
+      "createdAt": 1629901305913,
+      "updateAt": 1629901305913
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "id": "c1f61e29-d5c3-4e9d-ad57-03a92dea4285",
+      "name": "Small Fresh Gloves",
+      "color": "fuchsia",
+      "price": 175,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "id": "244c9091-a314-4086-b6ce-5c093f7aaf4a",
+      "name": "Awesome Frozen Sausages",
+      "color": "mint green",
+      "price": 712,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "id": "8c8fe140-a173-4923-b9e3-e08436797f3d",
+      "name": "Unbranded Soft Gloves",
+      "color": "plum",
+      "price": 946,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "id": "27bb9716-e173-4b02-a677-75877f6829b7",
+      "name": "Rustic Soft Mouse",
+      "color": "olive",
+      "price": 628,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "id": "e2655acd-fbbb-49e8-8e15-fe6195e46976",
+      "name": "Sleek Fresh Towels",
+      "color": "orchid",
+      "price": 147,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "id": "a6497925-987c-4e68-817a-602b277a8127",
+      "name": "Gorgeous Granite Chicken",
+      "color": "mint green",
+      "price": 508,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "id": "ff123137-af31-44f5-b53a-05c36b3d32b7",
+      "name": "Awesome Frozen Mouse",
+      "color": "salmon",
+      "price": 628,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "id": "92754c99-a7ac-4ccd-9c6c-1fa914115d8f",
+      "name": "Small Cotton Pizza",
+      "color": "magenta",
+      "price": 791,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "id": "041dd3be-1610-4591-af17-894a93c93c30",
+      "name": "Handmade Soft Salad",
+      "color": "magenta",
+      "price": 375,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "92a157f0-13cc-4cae-9dd9-1e1c7667aa99",
+      "id": "9852ea07-4e60-46d1-acf8-3b467d1e8578",
+      "name": "Ergonomic Soft Hat",
+      "color": "purple",
+      "price": 63,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "id": "a00a667b-e241-4b73-bef2-3a34b180651f",
+      "name": "Awesome Concrete Pizza",
+      "color": "blue",
+      "price": 944,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "id": "8f4f70c4-e517-4067-a136-3e1e820c927a",
+      "name": "Rustic Wooden Chicken",
+      "color": "silver",
+      "price": 47,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "id": "3fd44e47-9a11-479e-ac12-09eb5ed43fb0",
+      "name": "Intelligent Wooden Towels",
+      "color": "teal",
+      "price": 618,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "id": "bc740ac3-0a5e-4731-ad48-3113db94c83e",
+      "name": "Practical Concrete Cheese",
+      "color": "olive",
+      "price": 166,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1629901305914,
+      "updateAt": 1629901305914,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "ac4ffe35-b4dc-4c1b-873e-ca586583d724",
+      "id": "4ddd13a7-8f3a-4b51-8033-d8d54289c973",
+      "name": "Refined Cotton Pants",
+      "color": "plum",
+      "price": 129,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "id": "8b49efad-d26f-48d7-8bed-72d035a9edea",
+      "name": "Fantastic Concrete Pants",
+      "color": "silver",
+      "price": 22,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "id": "48eee074-e1e8-46d1-a1e9-8b52939d2d66",
+      "name": "Sleek Metal Gloves",
+      "color": "fuchsia",
+      "price": 418,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "id": "fadb4f48-5fc9-44cc-bf4d-d74e1d97079d",
+      "name": "Practical Plastic Fish",
+      "color": "orchid",
+      "price": 990,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "id": "a0c8f004-2bea-4e14-8687-44857fd7f244",
+      "name": "Rustic Metal Bacon",
+      "color": "lavender",
+      "price": 433,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "f2e1d074-2706-4d91-9d29-9ba0091d706c",
+      "id": "e334eb59-86de-4f99-af2a-2c05ee91e02f",
+      "name": "Fantastic Fresh Towels",
+      "color": "magenta",
+      "price": 340,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1629901305915,
+      "updateAt": 1629901305915,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+      "name": "Small Fresh",
+      "color": "red",
+      "price": 100,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "createdAt": 1629902103348,
+      "updatedAt": 1629902203222,
+      "id": "o_HoXT5"
+    }
+  ],
+  "profile": {
+    "name": "Quang"
+  }
+}
