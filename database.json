@@ -1,260 +1,509 @@
 {
   "protected_resources": {
     "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    "products": ["POST", "PUT", "PATCH", "DELETE"]
+    "activities": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "charts": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "tasks": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "posts": ["GET", "POST", "PUT", "PATCH", "DELETE"]
   },
   "users": [
     {
-      "id": 1,
-      "firstName": "Administrator",
-      "lastName": "",
+      "id": 0,
       "username": "admin",
       "email": "admin@gmail.com",
       "password": "admin",
-      "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
-      "gender": "Genderfluid",
-      "phone": "933-658-1213",
-      "birthday": "1994-03-23",
-      "status": true,
+      "job": "",
+      "amount": "",
       "createdAt": 1609483221000,
       "modifiedAt": 1609483221000
     },
     {
+      "id": 1,
+      "name": "Kathryn Murphy",
+      "email": "kathrynmurphy@gmail.com",
+      "password": "kathrynmurphy",
+      "job": "Design",
+      "amount": "$1,902.00",
+      "createdAt": 1617440961000,
+      "modifiedAt": 1618301961000
+    },
+    {
       "id": 2,
-      "firstName": "Alberta",
-      "lastName": "Farncomb",
-      "username": "afarncomb1",
-      "email": "afarncomb1@liveinternet.ru",
-      "password": "FfshsAlZ",
-      "avatar": "https://robohash.org/accusantiumminimamagni.png?size=50x50&set=set1",
-      "gender": "Male",
-      "phone": "510-449-7332",
-      "birthday": "2002-03-11",
-      "status": false,
+      "name": "Ralph Edwards",
+      "email": "ralphedwards@gmail.com",
+      "password": "ralphedwards",
+      "job": "Sales",
+      "amount": "$2,794.00",
       "createdAt": 1617440961000,
       "modifiedAt": 1618301961000
     },
     {
       "id": 3,
-      "firstName": "Kizzie",
-      "lastName": "Shama",
-      "username": "kshama2",
-      "email": "kshama2@prlog.org",
-      "password": "kjU6qK1Bm",
-      "avatar": "https://robohash.org/voluptatemdebitiset.png?size=50x50&set=set1",
-      "gender": "Male",
-      "phone": "676-983-4977",
-      "birthday": "1997-09-29",
-      "status": false,
-      "createdAt": 1615745961000,
-      "modifiedAt": 1615976361000
+      "name": "Albert Flores",
+      "email": "albertflores@gmail.com",
+      "password": "albertflores",
+      "job": "Marketing",
+      "amount": "$0.00",
+      "createdAt": 1617440961000,
+      "modifiedAt": 1618301961000
     },
     {
       "id": 4,
-      "firstName": "Tremayne",
-      "lastName": "Americi",
-      "username": "tamerici3",
-      "email": "tamerici3@skype.com",
-      "password": "xbNRPGk",
-      "avatar": "https://robohash.org/rerumoccaecatiprovident.png?size=50x50&set=set1",
-      "gender": "Genderfluid",
-      "phone": "548-721-4661",
-      "birthday": "2004-10-01",
-      "status": false,
-      "createdAt": 1610281342000,
-      "modifiedAt": 1619283693000
+      "name": "Jane Cooper",
+      "email": "janecooper@gmail.com",
+      "password": "janecooper",
+      "job": "Design",
+      "amount": "$762.00",
+      "createdAt": 1617440961000,
+      "modifiedAt": 1618301961000
     },
     {
       "id": 5,
-      "firstName": "Luciana",
-      "lastName": "Fernihough",
-      "username": "lfernihough4",
-      "email": "lfernihough4@oaic.gov.au",
-      "password": "hDuqo8j5TXTl",
-      "avatar": "https://robohash.org/nobisplaceataut.png?size=50x50&set=set1",
-      "gender": "Female",
-      "phone": "597-670-2841",
-      "birthday": "1999-01-30",
-      "status": true,
-      "createdAt": 1614362898000,
-      "modifiedAt": 1615410795000
-    },
-    {
-      "id": 6,
-      "firstName": "Ursuline",
-      "lastName": "Gorrick",
-      "username": "ugorrick5",
-      "email": "ugorrick5@meetup.com",
-      "password": "GH1yLLmJoq",
-      "avatar": "https://robohash.org/voluptatemenimerror.png?size=50x50&set=set1",
-      "gender": "Bigender",
-      "phone": "686-821-0488",
-      "birthday": "1996-01-29",
-      "status": false,
-      "createdAt": 1621283400000,
-      "modifiedAt": 1621528590000
-    },
-    {
-      "id": 7,
-      "firstName": "Carlotta",
-      "lastName": "Chivers",
-      "username": "cchivers6",
-      "email": "cchivers6@ebay.com",
-      "password": "n5hIT4NKk8Q",
-      "avatar": "https://robohash.org/voluptatequasiest.png?size=50x50&set=set1",
-      "gender": "Non-binary",
-      "phone": "428-749-0095",
-      "birthday": "1998-05-19",
-      "status": true,
-      "createdAt": 1614957930000,
-      "modifiedAt": 1614957930000
-    },
-    {
-      "id": 8,
-      "firstName": "Thorpe",
-      "lastName": "Humblestone",
-      "username": "thumblestone7",
-      "email": "thumblestone7@china.com.cn",
-      "password": "iYlKMYJqIy2T",
-      "avatar": "https://robohash.org/voluptasetexplicabo.png?size=50x50&set=set1",
-      "gender": "Bigender",
-      "phone": "722-376-2905",
-      "birthday": "2007-09-24",
-      "status": true,
-      "createdAt": 1613665586000,
-      "modifiedAt": 1613665586000
-    },
-    {
-      "id": 9,
-      "firstName": "Chick",
-      "lastName": "Kynnd",
-      "username": "ckynnd8",
-      "email": "ckynnd8@spotify.com",
-      "password": "cGdnd1HapM",
-      "avatar": "https://robohash.org/commodiexplicaboveritatis.png?size=50x50&set=set1",
-      "gender": "Bigender",
-      "phone": "825-276-2045",
-      "birthday": "2007-03-01",
-      "status": true,
-      "createdAt": 1612782806000,
-      "modifiedAt": 1612782806000
-    },
-    {
-      "id": 10,
-      "firstName": "Alexis",
-      "lastName": "Loughan",
-      "username": "aloughan9",
-      "email": "aloughan9@soundcloud.com",
-      "password": "BUSPoSABA3s",
-      "avatar": "https://robohash.org/suntisteaperiam.png?size=50x50&set=set1",
-      "gender": "Polygender",
-      "phone": "391-273-2238",
-      "birthday": "2000-05-04",
-      "status": true,
-      "createdAt": 1615245193000,
-      "modifiedAt": 1616246055000
+      "name": "Ronald Richards",
+      "email": "ronaldrichards@gmail.com",
+      "password": "ronaldrichards",
+      "job": "Sales",
+      "amount": "$0.00",
+      "createdAt": 1617440961000,
+      "modifiedAt": 1618301961000
     }
   ],
-  "products": [
+  "posts": [
     {
       "id": 1,
-      "name": "Pork Salted Bellies",
-      "price": 442,
-      "quantity": 16,
-      "thumbnail": "http://dummyimage.com/213x100.png/dddddd/000000",
-      "status": true,
-      "createdAt": 1610632995000,
-      "modifiedAt": 1615620960000
+      "name": "Julian Herbst",
+      "comment": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+      "quote": "",
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
     },
     {
       "id": 2,
-      "name": "Grapes - Black",
-      "price": 893,
-      "quantity": 22,
-      "thumbnail": "http://dummyimage.com/151x100.png/ff4444/ffffff",
-      "status": false,
-      "createdAt": 1615796160000,
-      "modifiedAt": 1615796160000
+      "name": "Mariuz Jaders",
+      "comment": "Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "quote": "",
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
     },
     {
       "id": 3,
-      "name": "Nantucket - 518ml",
-      "price": 693,
-      "quantity": 41,
-      "thumbnail": "http://dummyimage.com/125x100.png/dddddd/000000",
-      "status": false,
-      "createdAt": 1614190320000,
-      "modifiedAt": 1614190320000
+      "name": "Mariuz Jaders",
+      "comment": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
     },
     {
       "id": 4,
-      "name": "Onions - White",
-      "price": 472,
-      "quantity": 67,
-      "thumbnail": "http://dummyimage.com/117x100.png/cc0000/ffffff",
-      "status": false,
-      "createdAt": 1609751340000,
-      "modifiedAt": 1617525900000
+      "name": "Patricia Ribeiro",
+      "comment": "Esse cillum dolore eu fugiat nulla pariatur 😂",
+      "quote": "",
+      "createdAt": 1609483221000,
+      "modifiedAt": 1609483221000
+    }
+  ],
+  "charts": {
+    "design": ["4.51", "10.41", "5.78", "14.85", "10.28", "10.28", "10.20"],
+    "marketing": ["10.11", "12.11", "8.12", "11.12", "14.12", "6.12", "12.12"],
+    "sale": ["12.51", "12.41", "15.78", "14.85", "8.28", "10.28", "7.20"],
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+    "workflow": {
+      "activeWorklows": {
+        "total": 26,
+        "onboarding": 434,
+        "vendorRisk": 13,
+        "vendorRenewal": 56,
+        "report": 11
+      },
+      "draftWorklows": {
+        "total": 8,
+        "onboarding": 24,
+        "vendorRisk": 759
+      }
+    },
+    "myTasks": {
+      "onboarding": {
+        "process": 75,
+        "title": "Onboarding Salsabila Hampton",
+        "items": [
+          "Provision access for Basecamps",
+          "Provision access for Zeplin"
+        ]
+      },
+      "vendor": {
+        "process": 50,
+        "title": "Vendor Renewal",
+        "items": [
+          "Provision access for Basecamps",
+          "Provision access for Zeplin"
+        ]
+      }
+    }
+  },
+  "activities": [
+    {
+      "id": 1,
+      "type": "Card",
+      "where": "Dropbox",
+      "description": "Subscription renewal",
+      "amount": "- $120.00",
+      "date": "24.12.2020",
+      "time": "11:16 AM"
+    },
+    {
+      "id": 2,
+      "type": "Card",
+      "where": "Spotify",
+      "description": "Subscription renewal",
+      "amount": "- $9.99",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 3,
+      "type": "Card",
+      "where": "Apple",
+      "description": "MacBook Pro 13”",
+      "amount": "- $1,499.00",
+      "date": "24.12.2020",
+      "time": "11:16 AM"
+    },
+    {
+      "id": 4,
+      "type": "Card",
+      "where": "James Smith",
+      "description": "Invoice no. 37489",
+      "amount": "+ $60.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 5,
-      "name": "Lamb - Whole, Fresh",
-      "price": 157,
-      "quantity": 83,
-      "thumbnail": "http://dummyimage.com/160x100.png/dddddd/000000",
-      "status": true,
-      "createdAt": 1620154080000,
-      "modifiedAt": 1620154080000
+      "type": "Card",
+      "where": "Uber",
+      "description": "From the airport",
+      "amount": "- $20.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 6,
-      "name": "Carrots - Purple, Organic",
-      "price": 816,
-      "quantity": 37,
-      "thumbnail": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
-      "status": false,
-      "createdAt": 1619270940000,
-      "modifiedAt": 1619443380000
+      "type": "Card",
+      "where": "Marriott",
+      "description": "Hotel",
+      "amount": "- $410.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 7,
-      "name": "Bag - Regular Kraft 20 Lb",
-      "price": 157,
-      "quantity": 60,
-      "thumbnail": "http://dummyimage.com/156x100.png/cc0000/ffffff",
-      "status": false,
-      "createdAt": 1614098400000,
-      "modifiedAt": "2021-04-16"
+      "type": "Card",
+      "where": "Jane Cooper",
+      "description": "Invoice no. 37489",
+      "amount": "+ $395.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 8,
-      "name": "Flour - Bran, Red",
-      "price": 970,
-      "quantity": 40,
-      "thumbnail": "http://dummyimage.com/157x100.png/5fa2dd/ffffff",
-      "status": false,
-      "createdAt": 1617954000000,
-      "modifiedAt": 1619964420000
+      "type": "Card",
+      "where": "Amazon",
+      "description": "Subscription renewal",
+      "amount": "- $99.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 9,
-      "name": "Bread - Bistro Sour",
-      "price": 112,
-      "quantity": 77,
-      "thumbnail": "http://dummyimage.com/147x100.png/dddddd/000000",
-      "status": false,
-      "createdAt": 1612357500000,
-      "modifiedAt": 1614956760000
+      "type": "Card",
+      "where": "Uber",
+      "description": "From the airport",
+      "amount": "- $20.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
     },
     {
       "id": 10,
-      "name": "Soup - Campbells Bean Medley",
-      "price": 353,
-      "quantity": 40,
-      "thumbnail": "http://dummyimage.com/203x100.png/ff4444/ffffff",
-      "status": false,
-      "createdAt": 1615146960000,
-      "modifiedAt": 1615146960000
+      "type": "Card",
+      "where": "Go Viet",
+      "description": "From VietNam",
+      "amount": "- $90.99",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 11,
+      "type": "Card",
+      "where": "Tiki",
+      "description": "Subscription renewal",
+      "amount": "- $120.00",
+      "date": "24.12.2020",
+      "time": "11:16 AM"
+    },
+    {
+      "id": 12,
+      "type": "Card",
+      "where": "FPT",
+      "description": "Subscription renewal",
+      "amount": "- $9.99",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 13,
+      "type": "Card",
+      "where": "KMS",
+      "description": "MacBook Pro 13”",
+      "amount": "- $1,499.00",
+      "date": "24.12.2020",
+      "time": "11:16 AM"
+    },
+    {
+      "id": 14,
+      "type": "Card",
+      "where": "Nash Tech",
+      "description": "Invoice no. 37489",
+      "amount": "+ $60.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 15,
+      "type": "Card",
+      "where": "VNG",
+      "description": "From the airport",
+      "amount": "- $20.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 16,
+      "type": "Card",
+      "where": "Capgemini",
+      "description": "Hotel",
+      "amount": "- $410.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 17,
+      "type": "Card",
+      "where": "Meganet",
+      "description": "Invoice no. 37489",
+      "amount": "+ $395.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 18,
+      "type": "Card",
+      "where": "Zalo",
+      "description": "Subscription renewal",
+      "amount": "- $99.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 19,
+      "type": "Card",
+      "where": "Axon",
+      "description": "From the airport",
+      "amount": "- $20.00",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    },
+    {
+      "id": 20,
+      "type": "Card",
+      "where": "Grab",
+      "description": "From VietNam",
+      "amount": "- $90.99",
+      "date": "24.12.2020",
+      "time": "07:16 AM"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "content": "Workshop IDND",
+      "status": "doing",
+      "dateId": 1,
+      "monthId": 10,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "content": "Townhall Meeting",
+      "status": "pending",
+      "dateId": 3,
+      "monthId": 10,
+      "userId": 1,
+      "modifiedAt": 1629963530518
+    },
+    {
+      "id": 3,
+      "content": "Deadline: Haystack",
+      "status": "doing",
+      "dateId": 3,
+      "monthId": 10,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "content": "Preperations Design",
+      "status": "pending",
+      "dateId": 5,
+      "monthId": 10,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "content": "DEV QA",
+      "status": "doing",
+      "dateId": 7,
+      "monthId": 10,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "content": "Sample Task",
+      "status": "doing",
+      "dateId": 14,
+      "monthId": 10,
+      "userId": 2
+    }
+  ],
+  "dates": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
+    },
+    {
+      "id": 31
+    }
+  ],
+  "months": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
     }
   ]
 }

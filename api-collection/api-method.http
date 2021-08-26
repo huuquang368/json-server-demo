@@ -1,5 +1,5 @@
 @baseUrl=http://localhost:3000/api
-@resourceName=products
+@resourceName=activities
 
 # @name getAll
 GET {{baseUrl}}/{{resourceName}}
@@ -40,9 +40,8 @@ PATCH  {{baseUrl}}/{{resourceName}}/o_HoXT5
 Content-Type: application/json
 
 {
-    "name": "Small Fresh",
-    "color": "red",
-    "price": 100
+    "content": "Townhall Meeting",
+    "status": "pending",
 }
 
 

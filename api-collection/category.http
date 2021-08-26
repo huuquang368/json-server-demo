@@ -6,6 +6,7 @@ GET {{baseUrl}}/categories
 ###
 POST {{baseUrl}}/categories
 Content-Type: application/json
+
 {
   "name": "Laptop"
 }

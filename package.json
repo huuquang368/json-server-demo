@@ -2,11 +2,11 @@
   "name": "json-server-demo",
   "version": "1.0.0",
   "description": "use json-server",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon main.js",
-    "start": "npm run generate-data && node main.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "generate-data": "node generate-data.js"
   },
   "keywords": [
@@ -15,8 +15,12 @@
   "author": "Quang Tran Huu",
   "license": "MIT",
   "dependencies": {
+    "date-fns": "^2.23.0",
     "faker": "^5.5.3",
+    "formidable": "^1.2.2",
     "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "1.0.0",
     "query-string": "^7.0.1"
   },
   "devDependencies": {
