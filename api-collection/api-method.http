@@ -1,42 +1,64 @@
 @baseUrl=http://localhost:3000/api
 @resourceName=activities
+@userId=1
+@taskId=2
+@name=Julian Herbst
 
-# @name getAll
-GET {{baseUrl}}/{{resourceName}}
-
-###
-# @name filterProducts
-GET {{baseUrl}}/{{resourceName}}?color=olive&price_gte=200
-
-###
-# @name filterProductsLike
-GET {{baseUrl}}/{{resourceName}}?name_like=unbra
+# @name login
+GET http://localhost:3000/login
 
 ###
-# @name pagination
-GET {{baseUrl}}/{{resourceName}}?_page=1
-
-
-###
-# @name sort
-GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
+# @name getUserData
+GET {{baseUrl}}/users
 
 ###
-# @name addNew
-POST {{baseUrl}}/{{resourceName}}
+# @name getDataTableAndPagination
+GET {{baseUrl}}/activities?_page=1
+
+###
+# @name sortDataTable
+GET {{baseUrl}}/activities?_sort=amount&_order=asc
+
+###
+# @name getChartData
+GET {{baseUrl}}/charts
+
+###
+# @name getPost&CommentData
+GET {{baseUrl}}/posts
+
+###
+# @name addComment
+POST {{baseUrl}}/posts
 Content-Type: application/json
 
 {
-    "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
-    "name": "Small Fresh Gloves",
-    "color": "fuchsia",
-    "price": 1752,
-    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "thumbnailUrl": "http://placeimg.com/400/400"
+    "name": "Kathryn Murphy" , //current username
+    "comment": "Love FA training"
 }
 
 ###
-PATCH  {{baseUrl}}/{{resourceName}}/o_HoXT5
+# @name getTasksByUserId
+// other endpoint: GET {{baseUrl}}/tasks?userId={{userId}}&monthId=10
+GET {{baseUrl}}/users/{{userId}}/tasks
+
+
+###
+# @name addNewTask
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+   "content": "Workshop IDND",
+    "status": "doing",
+    "dateId": 1,  // date
+    "monthId": 10, // month
+    "userId": 1 // current user id
+}
+
+###
+# @name updateTask
+PATCH {{baseUrl}}/tasks/{{taskId}}
 Content-Type: application/json
 
 {
@@ -44,6 +66,6 @@ Content-Type: application/json
     "status": "pending",
 }
 
-
 ###
-DELETE   {{baseUrl}}/{{resourceName}}/2
+# @name deleteTask
+DELETE {{baseUrl}}/tasks/{{taskId}}
