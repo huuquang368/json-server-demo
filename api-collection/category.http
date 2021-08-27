@@ -1,23 +1,49 @@
-@baseUrl = http://localhost:3000/api
-# Categories
+@baseUrl=http://localhost:3000/api
+@resourceName=activities
 
-GET {{baseUrl}}/categories
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
 
 ###
-POST {{baseUrl}}/categories
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?color=olive&price_gte=200
+
+###
+# @name filterProductsLike
+GET {{baseUrl}}/{{resourceName}}?name_like=unbra
+
+###
+# @name pagination
+GET {{baseUrl}}/activities?_page=1
+
+
+###
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=amount&_order=asc
+
+###
+# @name addNew
+POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-  "name": "Laptop"
+    "categoryId": "821d463a-ef25-435f-8a2c-f6a83c035f29",
+    "name": "Small Fresh Gloves",
+    "color": "fuchsia",
+    "price": 1752,
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "thumbnailUrl": "http://placeimg.com/400/400"
 }
 
 ###
-PATCH  {{baseUrl}}/categories/2
+PATCH  {{baseUrl}}/{{resourceName}}/o_HoXT5
 Content-Type: application/json
 
 {
-  "name": "Laptop/PC"
+    "content": "Townhall Meeting",
+    "status": "pending",
 }
 
+
 ###
-DELETE   {{baseUrl}}/categories/2
+DELETE   {{baseUrl}}/{{resourceName}}/2

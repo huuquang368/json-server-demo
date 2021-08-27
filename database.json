@@ -1,11 +1,4 @@
 {
-  "protected_resources": {
-    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    "activities": ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    "charts": ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    "tasks": ["GET", "POST", "PUT", "PATCH", "DELETE"],
-    "posts": ["GET", "POST", "PUT", "PATCH", "DELETE"]
-  },
   "users": [
     {
       "id": 0,

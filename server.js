@@ -7,7 +7,7 @@ const {
   uploadFilesHandler,
   registerHandler,
 } = require("./additional_routes");
-const { defaultPort, databaseFile, jwtSecret } = require("./config.json");
+const { defaultPort, databaseFile } = require("./config.json");
 const queryString = require("query-string");
 
 const FileSync = require("lowdb/adapters/FileSync");
@@ -57,26 +57,10 @@ server.post("/upload-files", uploadFilesHandler);
 
 // Access control
 server.use((req, res, next) => {
-  const protectedResources = db.get("protected_resources").value();
-  if (!protectedResources) {
+  if (isAuthenticated(req)) {
     next();
-    return;
-  }
-
-  const resource = req.path.slice(1).split("/")[0];
-  const protectedResource =
-    protectedResources[resource] &&
-    protectedResources[resource].map((item) => item.toUpperCase());
-  const reqMethod = req.method.toUpperCase();
-
-  if (protectedResource && protectedResource.includes(reqMethod)) {
-    if (isAuthenticated(req)) {
-      next();
-    } else {
-      res.sendStatus(401);
-    }
   } else {
-    next();
+    res.sendStatus(401);
   }
 });
 
@@ -87,12 +71,15 @@ router.render = (req, res) => {
   // custom responses for return totalRows
   if (req.method === "GET" && totalCountHeader) {
     const queryParams = queryString.parse(req._parsedUrl.query);
+    const limit = Number.parseInt(queryParams._limit) || 10;
+    const totalRows = Number.parseInt(totalCountHeader);
     const result = {
       data: res.locals.data,
       pagination: {
         page: Number.parseInt(queryParams._page) || 1,
-        limit: Number.parseInt(queryParams._limit) || 10,
-        totalRows: Number.parseInt(totalCountHeader),
+        limit: limit,
+        totalRows: totalRows,
+        totalPages: Math.floor(totalRows / limit),
       },
     };
     return res.jsonp(result);
