@@ -374,6 +374,127 @@
       "userId": 2
     }
   ],
+  "favorite": {
+    "id": "1a13187b-6c71-4bb0-9031-0f18591b6d55",
+    "name": "Favorite",
+    "data": [
+      {
+        "id": "37476af2-8805-4d1a-8ea5-38ccc1d72ffd",
+        "url": "https://picsum.photos/id/0/1920/1080",
+        "isFavorite": true
+      },
+      {
+        "id": "f04fc141-7443-4e97-a330-bd70f7e770b3",
+        "url": "https://picsum.photos/id/1/1920/1080",
+        "isFavorite": true
+      },
+      {
+        "id": "ad76a1f8-8f81-437f-abd7-777dee4c27ea",
+        "url": "https://picsum.photos/id/10/1920/1080",
+        "isFavorite": true
+      },
+      {
+        "id": "99041090-3e2e-4d3e-af01-b7fb2d48fe3a",
+        "url": "https://picsum.photos/id/100/1920/1080",
+        "isFavorite": true
+      },
+      {
+        "id": "c46ad85e-981c-49ca-b518-d7d1f36c7427",
+        "url": "https://picsum.photos/id/1000/1920/1080",
+        "isFavorite": true
+      }
+    ]
+  },
+  "galleries": [
+    {
+      "id": "b5890cba-3de9-4e0d-81c9-3b0d1f534595",
+      "name": "Category 1",
+      "data": [
+        {
+          "id": "8663b39e-a5c3-4026-a757-75ecbe989de8",
+          "url": "https://picsum.photos/id/1003/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "8f9d5bfe-cca7-4e6e-8f0a-218e61677de3",
+          "url": "https://picsum.photos/id/1004/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "9b42a332-8ef8-4a30-92a5-4bd9985d72c5",
+          "url": "https://picsum.photos/id/1005/1920/1080",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "id": "ca4d6bef-0fa2-496d-819f-a923f5d8dfc2",
+      "name": "Category 2",
+      "data": [
+        {
+          "id": "270efe57-7e74-4040-a0c0-f655f707a88b",
+          "url": "https://picsum.photos/id/1010/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "9b3d8e71-847a-43fa-a9d8-6012289c09e2",
+          "url": "https://picsum.photos/id/1011/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "5b5f3728-834e-4dd6-b60f-2c4ca9dc71d9",
+          "url": "https://picsum.photos/id/1012/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "ca5d6fc1-c534-432e-8e04-86fc19daa27c",
+          "url": "https://picsum.photos/id/1013/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "f43dc479-ed8a-4897-be66-06b2014e12ec",
+          "url": "https://picsum.photos/id/1014/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "f52d5ca5-c1a3-4c9a-b741-68fc56f50f1a",
+          "url": "https://picsum.photos/id/1015/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "21867c13-5531-4f73-813a-60dea4c1b6b3",
+          "url": "https://picsum.photos/id/1016/1920/1080",
+          "isFavorite": false
+        }
+      ]
+    },
+    {
+      "id": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
+      "name": "Category 3",
+      "data": [
+        {
+          "id": "87a19b66-2e07-46d0-9940-f761d41571df",
+          "url": "https://picsum.photos/id/1018/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "ddd95352-5fb3-47f6-a12b-4492a72c0b1f",
+          "url": "https://picsum.photos/id/1019/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "69ea5b58-e7d6-4fda-9f8a-05e58f896618",
+          "url": "https://picsum.photos/id/102/1920/1080",
+          "isFavorite": false
+        },
+        {
+          "id": "796ad030-ef35-4548-88d3-5357cfec3b3d",
+          "url": "https://picsum.photos/id/1020/1920/1080",
+          "isFavorite": false
+        }
+      ]
+    }
+  ],
   "dates": [
     {
       "id": 1

@@ -1,8 +1,6 @@
 @baseUrl=http://localhost:3000/api
-@resourceName=activities
 @userId=1
 @taskId=2
-@name=Julian Herbst
 
 # @name login
 GET http://localhost:3000/login
@@ -22,6 +20,10 @@ GET {{baseUrl}}/activities?_sort=amount&_order=asc
 ###
 # @name getChartData
 GET {{baseUrl}}/charts
+
+###
+# @name getGalleryData
+GET {{baseUrl}}/galleries
 
 ###
 # @name getPost&CommentData

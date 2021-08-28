@@ -68,6 +68,8 @@ router.render = (req, res) => {
   // Check GET with pagination
   const headers = res.getHeaders();
   const totalCountHeader = headers["x-total-count"];
+  const favoriteData = db.get("favorite").value();
+
   // custom responses for return totalRows
   if (req.method === "GET" && totalCountHeader) {
     const queryParams = queryString.parse(req._parsedUrl.query);
@@ -81,6 +83,13 @@ router.render = (req, res) => {
         totalRows: totalRows,
         totalPages: Math.floor(totalRows / limit),
       },
+    };
+    return res.jsonp(result);
+  }
+  if (req.method === "GET" && req.url === "/galleries") {
+    const result = {
+      favorite: favoriteData,
+      categories: res.locals.data,
     };
     return res.jsonp(result);
   }
