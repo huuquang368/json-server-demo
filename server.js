@@ -49,6 +49,10 @@ server.post("/login", (req, res) => {
   loginHandler(db, req, res);
 });
 
+server.get("/ping", (req, res) => {
+  res.status(200).jsonp({ message: "Ping success" });
+});
+
 // Upload 1 file
 server.post("/upload-file", uploadFileHandler);
 

@@ -25,15 +25,11 @@ const handleUploadFile = async (req, file) => {
 
 module.exports = {
   loginHandler: (db, req, res) => {
-    const { username, email, password } = req.body;
+    const { email, password } = req.body;
 
     const user = db
       .get("users")
-      .find(
-        (user) =>
-          (user.username === username || user.email === email) &&
-          user.password === password
-      )
+      .find((user) => user.email === email && user.password === password)
       .value();
 
     if (user) {

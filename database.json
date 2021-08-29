@@ -1,64 +1,66 @@
 {
   "users": [
     {
-      "id": 0,
-      "username": "admin",
-      "email": "admin@gmail.com",
-      "password": "admin",
-      "job": "",
-      "amount": "",
-      "createdAt": 1609483221000,
-      "modifiedAt": 1609483221000
-    },
-    {
       "id": 1,
       "name": "Kathryn Murphy",
       "email": "kathrynmurphy@gmail.com",
-      "password": "kathrynmurphy",
-      "job": "Design",
-      "amount": "$1,902.00",
-      "createdAt": 1617440961000,
-      "modifiedAt": 1618301961000
+      "password": "kathrynmurphy"
     },
     {
       "id": 2,
       "name": "Ralph Edwards",
       "email": "ralphedwards@gmail.com",
-      "password": "ralphedwards",
-      "job": "Sales",
-      "amount": "$2,794.00",
-      "createdAt": 1617440961000,
-      "modifiedAt": 1618301961000
+      "password": "ralphedwards"
     },
     {
       "id": 3,
       "name": "Albert Flores",
       "email": "albertflores@gmail.com",
-      "password": "albertflores",
-      "job": "Marketing",
-      "amount": "$0.00",
-      "createdAt": 1617440961000,
-      "modifiedAt": 1618301961000
+      "password": "albertflores"
     },
     {
       "id": 4,
       "name": "Jane Cooper",
       "email": "janecooper@gmail.com",
-      "password": "janecooper",
-      "job": "Design",
-      "amount": "$762.00",
-      "createdAt": 1617440961000,
-      "modifiedAt": 1618301961000
+      "password": "janecooper"
     },
     {
       "id": 5,
       "name": "Ronald Richards",
       "email": "ronaldrichards@gmail.com",
-      "password": "ronaldrichards",
+      "password": "ronaldrichards"
+    }
+  ],
+  "userTabInfo": [
+    {
+      "id": 1,
+      "name": "Kathryn Murphy",
+      "job": "Design",
+      "amount": "$1,902.00"
+    },
+    {
+      "id": 2,
+      "name": "Ralph Edwards",
       "job": "Sales",
-      "amount": "$0.00",
-      "createdAt": 1617440961000,
-      "modifiedAt": 1618301961000
+      "amount": "$2,794.00"
+    },
+    {
+      "id": 3,
+      "name": "Albert Flores",
+      "job": "Marketing",
+      "amount": "$0.00"
+    },
+    {
+      "id": 4,
+      "name": "Jane Cooper",
+      "job": "Design",
+      "amount": "$762.00"
+    },
+    {
+      "id": 5,
+      "name": "Ronald Richards",
+      "job": "Sales",
+      "amount": "$0.00"
     }
   ],
   "posts": [
@@ -338,8 +340,7 @@
       "status": "pending",
       "dateId": 3,
       "monthId": 10,
-      "userId": 1,
-      "modifiedAt": 1629963530518
+      "userId": 1
     },
     {
       "id": 3,
