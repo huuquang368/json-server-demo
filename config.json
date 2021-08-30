@@ -2,5 +2,5 @@
   "defaultPort": 3000,
   "databaseFile": "database.json",
   "jwtSecret": "quang",
-  "jwtTokenexpiresInMinutes": "20"
+  "jwtTokenexpiresInMinutes": "1440"
 }
