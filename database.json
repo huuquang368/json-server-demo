@@ -382,43 +382,7 @@
   "favorite": {
     "id": "1a13187b-6c71-4bb0-9031-0f18591b6d55",
     "name": "Favorite",
-    "data": [
-      {
-        "categoryId": "b5890cba-3de9-4e0d-81c9-3b0d1f534595",
-        "id": "37476af2-8805-4d1a-8ea5-38ccc1d72ffd",
-        "url": "https://picsum.photos/id/0/1920/1080",
-        "isFavorite": true,
-        "name": "et aliquid deleniti"
-      },
-      {
-        "categoryId": "ca4d6bef-0fa2-496d-819f-a923f5d8dfc2",
-        "id": "f04fc141-7443-4e97-a330-bd70f7e770b3",
-        "url": "https://picsum.photos/id/1/1920/1080",
-        "isFavorite": true,
-        "name": "repudiandae sed ipsam"
-      },
-      {
-        "categoryId": "b5890cba-3de9-4e0d-81c9-3b0d1f534595",
-        "id": "ad76a1f8-8f81-437f-abd7-777dee4c27ea",
-        "url": "https://picsum.photos/id/10/1920/1080",
-        "isFavorite": true,
-        "name": "officiis est id"
-      },
-      {
-        "categoryId": "ca4d6bef-0fa2-496d-819f-a923f5d8dfc2",
-        "id": "99041090-3e2e-4d3e-af01-b7fb2d48fe3a",
-        "url": "https://picsum.photos/id/100/1920/1080",
-        "isFavorite": true,
-        "name": "est ut a"
-      },
-      {
-        "cateloryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
-        "id": "c46ad85e-981c-49ca-b518-d7d1f36c7427",
-        "url": "https://picsum.photos/id/1000/1920/1080",
-        "isFavorite": true,
-        "name": "et rerum aut"
-      }
-    ]
+    "data": []
   },
   "galleries": [
     {
