@@ -472,28 +472,28 @@
       "name": "Category 3",
       "data": [
         {
-          "cateloryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
+          "categoryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
           "id": "87a19b66-2e07-46d0-9940-f761d41571df",
           "url": "https://picsum.photos/id/1018/1920/1080",
           "isFavorite": false,
           "name": "illo voluptatem non"
         },
         {
-          "cateloryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
+          "categoryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
           "id": "ddd95352-5fb3-47f6-a12b-4492a72c0b1f",
           "url": "https://picsum.photos/id/1019/1920/1080",
           "isFavorite": false,
           "name": "consequatur quisquam voluptate"
         },
         {
-          "cateloryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
+          "categoryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
           "id": "69ea5b58-e7d6-4fda-9f8a-05e58f896618",
           "url": "https://picsum.photos/id/102/1920/1080",
           "isFavorite": false,
           "name": "doloremque voluptatem modi"
         },
         {
-          "cateloryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
+          "categoryId": "3f7d7bb6-8b7a-4cc7-aeb3-74fc83a72549",
           "id": "796ad030-ef35-4548-88d3-5357cfec3b3d",
           "url": "https://picsum.photos/id/1020/1920/1080",
           "isFavorite": false,
